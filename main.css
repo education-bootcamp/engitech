@@ -21,18 +21,15 @@
 }
 .top-bar-inner{
     width: 90%;
-    border: 1px solid red;
     height: 100%;
     display: flex;
 }
 .top-bar-inner-items{
     flex:1;
-    border: 1px solid red;
 }
 .top-social-list{
     list-style: none;
     display: flex;
-    border: 1px solid red;
     height: 100%;
 }
 .top-social-list li{
@@ -53,4 +50,21 @@
     color: var(--light-color);
 }
 
+.top-social-right-list li{
+    width: auto!important;
+    padding: 0 20px;
+}
+.right{
+    display: flex;
+    justify-content: flex-end;
+}
 /*top-bar*/
+
+
+/*media queries*/
+@media only screen and (max-width:731px) {
+    .top-bar-container{
+        display: none;
+    }
+}
+/*media queries*/
