@@ -2,6 +2,7 @@
 :root{
     --dark-blue-color:#130f40;
     --light-color:#FFF;
+    --light-gray-color:#bdc3c7;
 }
 
 *{
@@ -28,4 +29,28 @@
     flex:1;
     border: 1px solid red;
 }
+.top-social-list{
+    list-style: none;
+    display: flex;
+    border: 1px solid red;
+    height: 100%;
+}
+.top-social-list li{
+    color: var(--light-gray-color);
+    width: 40px;
+    border-right: 1px solid var(--light-gray-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 12px;
+}
+.top-social-list li:first-child{
+    border-left: 1px solid var(--light-gray-color);
+}
+.top-social-list li:hover{
+    cursor: pointer;
+    color: var(--light-color);
+}
+
 /*top-bar*/
