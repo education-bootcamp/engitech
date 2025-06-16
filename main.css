@@ -76,15 +76,36 @@
 }
 .logo-wrapper{
     width: 300px;
+    align-items: center;
+}
+.logo-wrapper a{
+
+}
+.logo-wrapper a img{
+    height: 50px;
 }
 .nav-wrapper{
     flex:1;
+    display: flex;
+    justify-content: center;
 }
 .util-wrapper{
     width: 300px;
 }
 .header-item{
     border: 1px solid red;
+    display: flex;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    border: 1px solid red;
+}
+.nav-list li{
+   border: 1px solid red;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
 }
 
 /*nav-bar*/
