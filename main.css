@@ -207,7 +207,7 @@
 .top-slider-wrapper {
     width: 100%;
     height: 100vh;
-    border: 1px solid red;
+
 }
 
 /*top-slider*/
@@ -216,34 +216,55 @@
 .brand-slider-wrapper {
     width: 100%;
     height: 350px;
-    border: 1px solid red;
+
 }
 
 /*brand-slider*/
 /*about*/
 .about-wrapper {
     width: 100%;
-    border: 1px solid red;
+
     display: flex;
 }
 .about-inner{
     flex:1;
-    border: 1px solid red;
-}
 
+}
+.about-left{
+    padding: 10px 80px 10px 100px;
+}
 .about-left-content-1{
-    border: 1px solid red;
+
 }
 .about-left-content-1 span{
     color: var(--blue-color);
 }
+.about-left-content-1 h1{
+    line-height: 30px;
+    margin-top: 10px;
+}
+.about-left-content-1 p{
+    margin-top: 20px;
+}
+.about-left-content-2-left, .about-left-content-2-right{
+    padding-right: 10px;
+}
+.about-left-content-2-left i, .about-left-content-2-right i{
+    font-size: 30px;
+    color: var(--blue-color);
+}
+
+.about-left-content-2-left h4, .about-left-content-2-right h4{
+    color: var(--dark-blue-color);
+    font-size: 22px;
+    margin-top: 10px;
+}
 .about-left-content-2{
-    border: 1px solid red;
     display: flex;
 }
 .about-left-content-2-left, .about-left-content-2-right{
     flex:1;
-    border: 1px solid red;
+
 }
 .about-loader{
     width: 100%;
