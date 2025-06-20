@@ -299,7 +299,6 @@
 }
 .service-top-wrapper{
     width: 90%;
-    border: 1px solid red;
     position: relative;
 }
 .service-top-wrapper p{
@@ -324,26 +323,32 @@
 
 .service-layer{
     width: 90%;
-    border: 1px solid red;
     position: relative;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 .service-layer-inner{
-    height: 150px;
-    border: 1px solid red;
     display: flex;
 }
 .service-element{
     flex:1;
-    border: 1px solid red;
     display: flex;
 }
 .service-element-icon-layer{
     width: 80px;
-    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.service-element-icon-layer i{
+    font-size: 25px;
+    color: var(--blue-color);
 }
 .service-element-data-layer{
     flex:1;
+    padding: 10px;
+}
+.service-element-data-layer h3{
+    font-size: 25px;
 }
 /*our-services*/
 /*latest case studies*/
