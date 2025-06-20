@@ -291,8 +291,6 @@
 /*our-services*/
 .our-services-wrapper {
     width: 100%;
-    height: 500px;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -349,6 +347,18 @@
 }
 .service-element-data-layer h3{
     font-size: 25px;
+}
+.contact-us-wrapper{
+    width: 90%;
+    position: relative;
+    margin-top: 25px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://wpdemo.archiwp.com/engitech/wp-content/uploads/sites/4/2020/02/bg-cta1-home1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /*our-services*/
 /*latest case studies*/
