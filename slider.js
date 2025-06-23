@@ -5,7 +5,7 @@ const dots = document.querySelectorAll('.dot');
 
 function updateSlider() {
     const translateX = -currentSlideIndex * 20;
-    slider.style.transform = `translateX(${translateX})`;
+    slider.style.transform = `translateX(${translateX}%)`;
 
     // dots update
     dots.forEach((dot, index) => {
